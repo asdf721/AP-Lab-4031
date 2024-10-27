@@ -5,6 +5,8 @@
 class AccountList
 {
 public:
+    Account *merge(Account *first, Account *second);
+    Account *MergeSort(Account *head);
 	AccountList();
 	AccountList(Account* _head);
 	Account* getHead()const;
